@@ -1,0 +1,226 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.sectionBTN {
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Start Navbar */
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-nav .nav-link {
+    color: #a0a0a0;
+    transition: all .3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+.navbar .form-control {
+    height: auto;
+}
+.navbar .input-group-text, .navbar-options i {
+    cursor: pointer;
+}
+.navbar .navbar-options i {
+    font-size: 18px;
+}
+/* End Navbar */
+
+/* Start Header */
+.header {
+    height: 100vh;
+    background-image: url('images/HomeBG.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header .header-content {
+    bottom: 15%;
+    right: 20%;
+    font-weight: 500;
+    font-size: 18px;
+}
+.header .header-content h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+/* End Header */
+
+/* Start Section Photos */
+.section-photos img {
+    width: 100%;
+}
+.section-photos .right-photo h6 {
+    left: 15px;
+    bottom: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* End Section Photos */
+
+/* Start Fashion */
+.fashion-item {
+    font-size: 14px;
+}
+.fashion-item .old-price {
+    text-decoration: line-through;
+}
+.fashion-item .new-price {
+    color: #CF2929;
+}
+/* End Fashion */
+
+/* Start Section Styles */
+.section-style-right-bottomimg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.section-style-left {
+    padding-top: 70px;
+}
+.section-style-right-bottomimg img {
+    border: 20px solid #fff;
+}
+/* End Section Styles */
+
+/* Start Section Background */
+.section-background {
+    background-image: url('images/secBG.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+}
+.section-background .section-background-content {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+}
+.section-background .section-background-content span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.section-background .section-background-content h2 {
+    font-size: 70px;
+}
+/* Start Section Background */
+
+/* Start Contactus */
+.contactus {
+    background-color: #F2F8FC;
+}
+.contactus-updates .input-group-text {
+    cursor: pointer;
+}
+.contactus-updates .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* End Contactus */
+
+/* Start Footer */
+footer {
+    background-color: #E7F5F8;
+    color: #000;
+    font-size: 18px;
+}
+/* End Footer */
+
+@media screen and (max-width: 1119px){
+    .section-style-right-bottomimg img {
+        border: 15px solid #fff;
+    }
+}
+@media screen and (max-width: 991px){
+    .navbar .navbar-toggler {
+        background-color: #C3D2D5;
+        padding: .25rem .5rem;
+    }
+    .section-style-left {
+        margin-bottom: 12px;
+    }
+    .section-style-right {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .section-style-right-bottomimg {
+        position: static;
+    }
+    .section-style-right-bottomimg img {
+        border: 0;
+        margin-top: 15px;
+    }
+    .section-background {
+        height: 60vh;
+    }
+    .section-background .section-background-content {
+        left: 5%;
+        bottom: 10%;
+    }
+    .section-background .section-background-content h2 {
+        font-size: 50px;
+    }
+    .contactus-updates h2 {
+        font-size: 1.5rem;
+    }
+    .contactus-links {
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .header .header-content h1 {
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .header .header-content span {
+        font-size: 18px;
+    }
+    .section-style-left {
+        padding-top: 16px;
+    }
+    .section-style-right {
+        display: block;
+    }
+    .contactus-updates {
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (max-width: 575px){
+    .header .header-content {
+        right: 0;
+        padding: 0 15px;
+    }
+    .header .header-content span {
+        color: #fff;
+    }
+    .header .header-content h1 {
+        font-size: 50px;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .section-paragraph {
+        font-size: 14px;
+    }
+    .fashion-item {
+        text-align: center;
+    }
+    .section-style-right-topimg {
+        margin-bottom: 10px;
+    }
+    .section-background .section-background-content h2 {
+        font-size: 40px;
+    }
+    footer {
+        background-color: #E7F5F8;
+        color: #000;
+        font-size: 14px;
+    }
+}
